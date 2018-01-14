@@ -1,0 +1,6 @@
+This is a simple spring boot project.
+Used postgres for backend DB.
+Created few sample test cases.
+Attached the test.json
+Also provided the postman link for any these test cases.
+You can import postman link to postman client or take json from test.json

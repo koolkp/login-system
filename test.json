@@ -1,0 +1,1164 @@
+{
+  "id": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+  "name": "loginsystem",
+  "description": "",
+  "order": [
+    "26b3aa26-1740-a641-91ea-af370d74ea9b",
+    "551700c9-8d9b-63ee-7c87-9a1853fc5716",
+    "ae9b421b-63c4-1726-34a0-6df3f25a99c7",
+    "787b4277-b810-cae3-944d-d2f91338b976",
+    "8fe9269a-be75-6cb7-70a1-8e6f90f4a2c9",
+    "b460fd18-23e7-6149-2f72-cb33b2b17784",
+    "a4347cac-640e-57c6-94e8-5ec632acebdc",
+    "e4775d03-868c-8485-9b4c-cbfca34298b2",
+    "3b2a36f6-2597-af74-6857-66885d424e75",
+    "0b711b64-e532-0007-ffe4-34aff50e85b9",
+    "1ee293a1-7b63-8ae8-3296-69f82344cf86",
+    "6d1ca3dd-7096-b911-22b1-91946428c3bb",
+    "4548613c-e380-23ce-0107-5c46236f49bc",
+    "b59914dc-8fb2-abde-7ff9-55f6dda13263",
+    "439969eb-1fb7-9c13-c9cb-ccaafe3312a0",
+    "51d48ef1-3355-affc-2834-b69660343c9c",
+    "27296662-03bd-6348-eebd-d8a0a4cc08f0",
+    "c70c4a3a-2776-80b6-bbfc-e809f71686c0",
+    "bcbda140-ed7d-ca50-7e57-0709e4f7883c",
+    "b87934cb-589f-9a86-9978-89272e403870",
+    "e63f2a28-11c8-e5c3-4cdf-c71b78ca8c9e",
+    "d34e90c5-d8cb-bd7b-116f-5327c47d4adf",
+    "160570b2-12f6-4d53-395b-c2b445d200ff",
+    "47bfae66-8ee8-a331-060b-88e1588369e4",
+    "380e79b9-86b8-1d69-41b0-7069ea93a939",
+    "a41911e1-950b-931d-1e46-842db135478b",
+    "76a99f05-7646-68c2-2ab7-3d2cc336a8de",
+    "93d85f32-edaf-e1ee-4619-8419de328f47",
+    "09d22c21-3257-7094-e087-e814dd6c605e",
+    "d95ee7d9-4ada-bd8d-d787-e75c8501a8f9",
+    "e4a75557-66de-92f1-751b-9b1b06c34a7f",
+    "4027fb26-06e2-e962-f767-6705b9955cd5",
+    "85cd4640-394b-1edc-b075-12aa36b973ec"
+  ],
+  "folders": [],
+  "folders_order": [],
+  "timestamp": 1515866302275,
+  "owner": "354753",
+  "public": false,
+  "requests": [
+    {
+      "id": "09d22c21-3257-7094-e087-e814dd6c605e",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/hasPermission?userId=1&actionTypeId=6&resourceId=9",
+      "queryParams": [
+        {
+          "key": "userId",
+          "value": "1",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "actionTypeId",
+          "value": "6",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "resourceId",
+          "value": "9",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "GET",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/test\/1",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515870198295,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 17,\n\t\"userId\": 5\n}"
+    },
+    {
+      "id": "0b711b64-e532-0007-ffe4-34aff50e85b9",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/resource",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/resource\/2",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515867303854,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"label\": \"resource3\"\n}"
+    },
+    {
+      "id": "160570b2-12f6-4d53-395b-c2b445d200ff",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/role",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/role\/3",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515869134132,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 18,\n\t\"userId\": 1\n}"
+    },
+    {
+      "id": "1ee293a1-7b63-8ae8-3296-69f82344cf86",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/resource",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515867317511,
+      "name": "{{host}}\/login\/resource\/3",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"label\": \"resource2\"\n}"
+    },
+    {
+      "id": "26b3aa26-1740-a641-91ea-af370d74ea9b",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/user",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/user\/1",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515866398930,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"userName\": \"kp1\",\n\t\"firstName\": \"Kamakhya\",\n\t\"lastName\": \"Gupta\",\n\t\"password\": \"1234\"\n}"
+    },
+    {
+      "id": "27296662-03bd-6348-eebd-d8a0a4cc08f0",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/permission",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515868799730,
+      "name": "{{host}}\/login\/permission\/6",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"name\": \"per6\",\n\t\"actionTypeId\": 7,\n\t\"resourceId\": 11,\n\t\"codeName\": \"permission for resource of action\"\n}"
+    },
+    {
+      "id": "380e79b9-86b8-1d69-41b0-7069ea93a939",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/role",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/role\/5",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515869178158,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 16,\n\t\"userId\": 2\n}"
+    },
+    {
+      "id": "3b2a36f6-2597-af74-6857-66885d424e75",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/resource",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515867267852,
+      "name": "{{host}}\/login\/resource\/1",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"label\": \"resource1\"\n}"
+    },
+    {
+      "id": "4027fb26-06e2-e962-f767-6705b9955cd5",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/hasPermission?userId=2&actionTypeId=7&resourceId=9",
+      "queryParams": [
+        {
+          "key": "userId",
+          "value": "2",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "actionTypeId",
+          "value": "7",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "resourceId",
+          "value": "9",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "GET",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/test\/4",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515870303811,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 17,\n\t\"userId\": 5\n}"
+    },
+    {
+      "id": "439969eb-1fb7-9c13-c9cb-ccaafe3312a0",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/permission",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515868773224,
+      "name": "{{host}}\/login\/permission\/4",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"name\": \"per4\",\n\t\"actionTypeId\": 7,\n\t\"resourceId\": 9,\n\t\"codeName\": \"permission for resource of action\"\n}"
+    },
+    {
+      "id": "4548613c-e380-23ce-0107-5c46236f49bc",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/permission",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515868724080,
+      "name": "{{host}}\/login\/permission\/2",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"name\": \"per2\",\n\t\"actionTypeId\": 6,\n\t\"resourceId\": 10,\n\t\"codeName\": \"permission for resource of action\"\n}"
+    },
+    {
+      "id": "47bfae66-8ee8-a331-060b-88e1588369e4",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/role",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/role\/4",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515869167163,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 13,\n\t\"userId\": 2\n}"
+    },
+    {
+      "id": "51d48ef1-3355-affc-2834-b69660343c9c",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/permission",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515868778630,
+      "name": "{{host}}\/login\/permission\/5",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"name\": \"per5\",\n\t\"actionTypeId\": 7,\n\t\"resourceId\": 10,\n\t\"codeName\": \"permission for resource of action\"\n}"
+    },
+    {
+      "id": "551700c9-8d9b-63ee-7c87-9a1853fc5716",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/user",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/user\/2",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515866462527,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"userName\": \"kp2\",\n\t\"firstName\": \"Kamakhya\",\n\t\"lastName\": \"Gupta\",\n\t\"password\": \"1234\"\n}"
+    },
+    {
+      "id": "6d1ca3dd-7096-b911-22b1-91946428c3bb",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/permission",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515868708515,
+      "name": "{{host}}\/login\/permission\/1",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"name\": \"per1\",\n\t\"actionTypeId\": 6,\n\t\"resourceId\": 9,\n\t\"codeName\": \"permission for resource of action\"\n}"
+    },
+    {
+      "id": "76a99f05-7646-68c2-2ab7-3d2cc336a8de",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/role",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/role\/7",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515869330074,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 13,\n\t\"userId\": 4\n}"
+    },
+    {
+      "id": "787b4277-b810-cae3-944d-d2f91338b976",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/user",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/user\/4",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515866502336,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"userName\": \"kp4\",\n\t\"firstName\": \"Kamakhya\",\n\t\"lastName\": \"Gupta\",\n\t\"password\": \"1234\"\n}"
+    },
+    {
+      "id": "85cd4640-394b-1edc-b075-12aa36b973ec",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/hasPermission?userId=4&actionTypeId=6&resourceId=10",
+      "queryParams": [
+        {
+          "key": "userId",
+          "value": "4",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "actionTypeId",
+          "value": "6",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "resourceId",
+          "value": "10",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "GET",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/test\/5",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515870398484,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 17,\n\t\"userId\": 5\n}"
+    },
+    {
+      "id": "8fe9269a-be75-6cb7-70a1-8e6f90f4a2c9",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/user",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/user\/5",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515866539189,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"userName\": \"kp5\",\n\t\"firstName\": \"Kamakhya\",\n\t\"lastName\": \"Gupta\",\n\t\"password\": \"1234\"\n}"
+    },
+    {
+      "id": "93d85f32-edaf-e1ee-4619-8419de328f47",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/role",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/role\/8",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515869408556,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 17,\n\t\"userId\": 5\n}"
+    },
+    {
+      "id": "a41911e1-950b-931d-1e46-842db135478b",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/role",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/role\/6",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515869204878,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 14,\n\t\"userId\": 3\n}"
+    },
+    {
+      "id": "a4347cac-640e-57c6-94e8-5ec632acebdc",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/action",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/action\/2",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515866859255,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"accessLevel\": \"WRITE\"\n}"
+    },
+    {
+      "id": "ae9b421b-63c4-1726-34a0-6df3f25a99c7",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/user",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/user\/3",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515866486569,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"userName\": \"kp3\",\n\t\"firstName\": \"Kamakhya\",\n\t\"lastName\": \"Gupta\",\n\t\"password\": \"1234\"\n}"
+    },
+    {
+      "id": "b460fd18-23e7-6149-2f72-cb33b2b17784",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/action",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/action\/1",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515866761968,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"accessLevel\": \"READ\"\n}"
+    },
+    {
+      "id": "b59914dc-8fb2-abde-7ff9-55f6dda13263",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/permission",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515868737424,
+      "name": "{{host}}\/login\/permission\/3",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"name\": \"per3\",\n\t\"actionTypeId\": 6,\n\t\"resourceId\": 11,\n\t\"codeName\": \"permission for resource of action\"\n}"
+    },
+    {
+      "id": "b87934cb-589f-9a86-9978-89272e403870",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/permission",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515868833332,
+      "name": "{{host}}\/login\/permission\/9",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"name\": \"per9\",\n\t\"actionTypeId\": 8,\n\t\"resourceId\": 11,\n\t\"codeName\": \"permission for resource of action\"\n}"
+    },
+    {
+      "id": "bcbda140-ed7d-ca50-7e57-0709e4f7883c",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/permission",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515868824037,
+      "name": "{{host}}\/login\/permission\/8",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"name\": \"per8\",\n\t\"actionTypeId\": 8,\n\t\"resourceId\": 10,\n\t\"codeName\": \"permission for resource of action\"\n}"
+    },
+    {
+      "id": "c70c4a3a-2776-80b6-bbfc-e809f71686c0",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/permission",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515868810143,
+      "name": "{{host}}\/login\/permission\/7",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"name\": \"per7\",\n\t\"actionTypeId\": 8,\n\t\"resourceId\": 9,\n\t\"codeName\": \"permission for resource of action\"\n}"
+    },
+    {
+      "id": "d34e90c5-d8cb-bd7b-116f-5327c47d4adf",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/role",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "version": 2,
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515869120696,
+      "name": "{{host}}\/login\/role\/2",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"permissionId\": 15,\n\t\"userId\": 1\n}"
+    },
+    {
+      "id": "d95ee7d9-4ada-bd8d-d787-e75c8501a8f9",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/hasPermission?userId=2&actionTypeId=6&resourceId=9",
+      "queryParams": [
+        {
+          "key": "userId",
+          "value": "2",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "actionTypeId",
+          "value": "6",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "resourceId",
+          "value": "9",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "GET",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/test\/2",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515870261644,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 17,\n\t\"userId\": 5\n}"
+    },
+    {
+      "id": "e4775d03-868c-8485-9b4c-cbfca34298b2",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/action",
+      "queryParams": [],
+      "preRequestScript": null,
+      "pathVariables": [],
+      "pathVariableData": [],
+      "method": "POST",
+      "data": [],
+      "dataMode": "raw",
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "time": 1515867207183,
+      "name": "{{host}}\/login\/action\/3",
+      "description": "",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "responses": [],
+      "rawModeData": "{\n\t\"accessLevel\": \"DELETE\"\n}"
+    },
+    {
+      "id": "e4a75557-66de-92f1-751b-9b1b06c34a7f",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/hasPermission?userId=2&actionTypeId=8&resourceId=9",
+      "queryParams": [
+        {
+          "key": "userId",
+          "value": "2",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "actionTypeId",
+          "value": "8",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        },
+        {
+          "key": "resourceId",
+          "value": "9",
+          "equals": true,
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "GET",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/test\/3",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515870286530,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 17,\n\t\"userId\": 5\n}"
+    },
+    {
+      "id": "e63f2a28-11c8-e5c3-4cdf-c71b78ca8c9e",
+      "headers": "Content-Type: application\/json\n",
+      "headerData": [
+        {
+          "key": "Content-Type",
+          "value": "application\/json",
+          "description": "",
+          "enabled": true
+        }
+      ],
+      "url": "{{host}}\/login\/role",
+      "queryParams": [],
+      "pathVariables": [],
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "b09d0bec-4625-7df6-f40f-63085c8eff4d",
+      "data": [],
+      "dataMode": "raw",
+      "name": "{{host}}\/login\/role\/1",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1515869028291,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": [],
+      "rawModeData": "{\n\t\"permissionId\": 12,\n\t\"userId\": 1\n}"
+    }
+  ]
+}
